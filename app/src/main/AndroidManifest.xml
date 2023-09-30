@@ -10,6 +10,12 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Cakedog">
         <activity
+            android:name=".Carrinho"
+            android:exported="false" />
+        <activity
+            android:name=".AdicionarCarrinho"
+            android:exported="false" />
+        <activity
             android:name=".Home"
             android:exported="false" />
         <activity
