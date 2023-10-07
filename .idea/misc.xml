@@ -8,10 +8,13 @@
         <entry key="..\:/Users/Lab_ETESP/AndroidStudioProjects/cakedog2/app/src/main/res/drawable/view2.xml" value="0.27708333333333335" />
         <entry key="..\:/Users/Lab_ETESP/AndroidStudioProjects/cakedog2/app/src/main/res/layout/activity_home.xml" value="0.2609375" />
         <entry key="..\:/Users/Lab_ETESP/AndroidStudioProjects/cakedog2/app/src/main/res/layout/activity_main.xml" value="0.2609375" />
-        <entry key="..\:/Users/Lab_ETESP/Downloads/cakedog/app/src/main/res/layout/activity_adicionar_carrinho.xml" value="0.33" />
-        <entry key="..\:/Users/Lab_ETESP/Downloads/cakedog/app/src/main/res/layout/activity_carrinho.xml" value="0.2609375" />
-        <entry key="..\:/Users/Lab_ETESP/Downloads/cakedog/app/src/main/res/layout/activity_home.xml" value="0.33" />
-        <entry key="..\:/Users/Lab_ETESP/Downloads/cakedog/app/src/main/res/layout/activity_main.xml" value="0.33" />
+        <entry key="..\:/Users/Lab_ETESP/Downloads/cakedog/app/src/main/res/drawable/bordas_produtos.xml" value="0.2078125" />
+        <entry key="..\:/Users/Lab_ETESP/Downloads/cakedog/app/src/main/res/drawable/maps.xml" value="0.27708333333333335" />
+        <entry key="..\:/Users/Lab_ETESP/Downloads/cakedog/app/src/main/res/layout/activity_adicionar_carrinho.xml" value="0.22" />
+        <entry key="..\:/Users/Lab_ETESP/Downloads/cakedog/app/src/main/res/layout/activity_carrinho.xml" value="0.22" />
+        <entry key="..\:/Users/Lab_ETESP/Downloads/cakedog/app/src/main/res/layout/activity_entrega.xml" value="0.33" />
+        <entry key="..\:/Users/Lab_ETESP/Downloads/cakedog/app/src/main/res/layout/activity_home.xml" value="0.25" />
+        <entry key="..\:/Users/Lab_ETESP/Downloads/cakedog/app/src/main/res/layout/activity_main.xml" value="0.25" />
       </map>
     </option>
   </component>

@@ -8,4 +8,6 @@
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
     <color name="padrao">#f2cbb3</color>
+    <color name="padraoclaro">#F8DECF</color>
+    <color name="cinza">#F3F3F3</color>
 </resources>

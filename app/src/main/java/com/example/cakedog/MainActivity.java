@@ -10,21 +10,21 @@ public class MainActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_home);
+        setContentView(R.layout.activity_main);
 
-        imgCarroussel = findViewById(R.id.imgCarroussel);
-        imgCarroussel.setImageResource(R.drawable.foto);
+        imgCarroussel = findViewById(R.id.logo);
+        imgCarroussel.setImageResource(R.drawable.logo);
 
-        imgCarroussel2 = findViewById(R.id.imgCarroussel2);
-        imgCarroussel2.setImageResource(R.drawable.foto);
+        imgCarroussel2 = findViewById(R.id.logo2);
+        imgCarroussel2.setImageResource(R.drawable.logo2);
 
-        imgCarroussel3 = findViewById(R.id.imgCarroussel3);
-        imgCarroussel3.setImageResource(R.drawable.foto);
+        //imgCarroussel3 = findViewById(R.id.imgCarroussel3);
+        //imgCarroussel3.setImageResource(R.drawable.foto);
 
-        imgCarroussel4 = findViewById(R.id.imgCarroussel4);
-        imgCarroussel4.setImageResource(R.drawable.foto);
+        //imgCarroussel4 = findViewById(R.id.imgCarroussel4);
+        //imgCarroussel4.setImageResource(R.drawable.foto);
 
-        imgCarroussel5 = findViewById(R.id.imgCarroussel5);
-        imgCarroussel5.setImageResource(R.drawable.foto);
+        //imgCarroussel5 = findViewById(R.id.imgCarroussel5);
+        //imgCarroussel5.setImageResource(R.drawable.foto);
     }
 }

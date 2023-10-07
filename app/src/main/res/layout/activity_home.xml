@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#EDEDED"
+    android:background="#FFFFFF"
     tools:context=".Home">
 
     <android.support.v7.widget.Toolbar
@@ -157,7 +157,6 @@
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:layout_margin="10dp"
             android:orientation="vertical"
             android:paddingBottom="10dp">
 
@@ -391,7 +390,6 @@
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:layout_margin="10dp"
             android:orientation="vertical"
             android:paddingBottom="10dp">
 
@@ -696,7 +694,7 @@
         android:layout_height="0dp"
         android:layout_marginTop="10dp"
         android:layout_marginBottom="10dp"
-        android:visibility="visible"
+        android:visibility="gone"
         app:layout_constraintBottom_toTopOf="@id/toolbar2"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -705,7 +703,6 @@
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_margin="10dp"
             android:orientation="vertical"
             android:paddingBottom="10dp">
 
@@ -837,7 +834,7 @@
 
             <LinearLayout
                 android:layout_width="match_parent"
-                android:layout_height="match_parent"
+                android:layout_height="wrap_content"
                 android:layout_marginBottom="10dp"
                 android:background="@drawable/bordas_produtos"
                 android:padding="10dp"
@@ -928,7 +925,7 @@
         android:layout_height="0dp"
         android:layout_marginTop="10dp"
         android:layout_marginBottom="10dp"
-        android:visibility="gone"
+        android:visibility="visible"
         app:layout_constraintBottom_toTopOf="@id/toolbar2"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -937,7 +934,6 @@
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_margin="10dp"
             android:orientation="vertical"
             android:paddingBottom="10dp">
 
