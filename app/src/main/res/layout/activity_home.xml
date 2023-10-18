@@ -10,7 +10,7 @@
     <android.support.v7.widget.Toolbar
         android:id="@+id/toolbar1"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="60dp"
         android:background="@color/padrao"
         android:minHeight="?attr/actionBarSize"
         android:theme="?attr/actionBarTheme"
@@ -18,15 +18,47 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
-    <android.support.v7.widget.Toolbar
-        android:id="@+id/carrinho"
+
+    <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:background="@color/black"
-        android:minHeight="?attr/actionBarSize"
-        android:theme="?attr/actionBarTheme"
-        app:layout_constraintBottom_toTopOf="@id/toolbar2"
-        app:layout_constraintEnd_toEndOf="parent" />
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:gravity="center|bottom"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toTopOf="@+id/toolbar2"
+        app:layout_constraintStart_toStartOf="parent">
+
+        <Button
+            android:id="@+id/button"
+            android:layout_width="5dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@android:color/transparent"
+            android:text="-" />
+
+        <TextView
+            android:id="@+id/textView10"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="1"
+            android:textAlignment="center" />
+
+        <Button
+            android:id="@+id/button2"
+            android:layout_width="2dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@android:color/transparent"
+            android:text="+" />
+
+        <Button
+            android:id="@+id/button3"
+            android:layout_width="220dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Adicionar" />
+    </LinearLayout>
 
     <android.support.v7.widget.Toolbar
         android:id="@+id/toolbar2"
@@ -163,7 +195,6 @@
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:layout_marginBottom="10dp"
                 android:background="@drawable/bordas_produtos"
                 android:padding="10dp">
 
@@ -205,7 +236,6 @@
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:layout_marginBottom="10dp"
                 android:background="@drawable/bordas_produtos"
                 android:padding="10dp"
                 tools:layout_editor_absoluteY="178dp">
@@ -247,7 +277,6 @@
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:layout_marginBottom="10dp"
                 android:background="@drawable/bordas_produtos"
                 android:padding="10dp"
                 tools:layout_editor_absoluteY="178dp">
@@ -289,7 +318,6 @@
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:layout_marginBottom="10dp"
                 android:background="@drawable/bordas_produtos"
                 android:padding="10dp"
                 tools:layout_editor_absoluteY="178dp">
@@ -331,7 +359,6 @@
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:layout_marginBottom="15dp"
                 android:background="@drawable/bordas_produtos"
                 android:padding="10dp"
                 tools:layout_editor_absoluteY="178dp">
@@ -396,7 +423,6 @@
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:layout_marginBottom="10dp"
                 android:background="@drawable/bordas_produtos"
                 android:gravity="center_horizontal"
                 android:orientation="vertical"
@@ -418,7 +444,6 @@
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:layout_marginBottom="10dp"
                 android:background="@drawable/bordas_produtos"
                 android:gravity="center_horizontal|center_vertical"
                 android:orientation="vertical"
@@ -470,7 +495,6 @@
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:layout_marginBottom="10dp"
                 android:background="@drawable/bordas_produtos"
                 android:gravity="center_horizontal"
                 android:orientation="vertical"
@@ -523,7 +547,6 @@
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:layout_marginBottom="10dp"
                 android:background="@drawable/bordas_produtos"
                 android:gravity="center_horizontal"
                 android:orientation="vertical"
@@ -578,7 +601,6 @@
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:layout_gravity="center_horizontal"
-                android:layout_marginBottom="15dp"
                 android:background="@drawable/bordas_produtos"
                 android:gravity="center_horizontal"
                 android:orientation="vertical"
@@ -632,7 +654,6 @@
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:layout_gravity="center_horizontal"
-                android:layout_marginBottom="15dp"
                 android:background="@drawable/bordas_produtos"
                 android:gravity="center_horizontal"
                 android:orientation="vertical"
@@ -709,7 +730,6 @@
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:layout_marginBottom="10dp"
                 android:background="@drawable/bordas_produtos"
                 android:padding="10dp">
 
@@ -751,7 +771,6 @@
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:layout_marginBottom="10dp"
                 android:background="@drawable/bordas_produtos"
                 android:padding="10dp"
                 tools:layout_editor_absoluteY="178dp">
@@ -793,7 +812,6 @@
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:layout_marginBottom="10dp"
                 android:background="@drawable/bordas_produtos"
                 android:padding="10dp"
                 tools:layout_editor_absoluteY="178dp">
@@ -835,7 +853,6 @@
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginBottom="10dp"
                 android:background="@drawable/bordas_produtos"
                 android:padding="10dp"
                 tools:layout_editor_absoluteY="178dp">
@@ -877,7 +894,6 @@
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:layout_marginBottom="15dp"
                 android:background="@drawable/bordas_produtos"
                 android:padding="10dp"
                 tools:layout_editor_absoluteY="178dp">
@@ -940,7 +956,6 @@
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:layout_marginBottom="10dp"
                 android:background="@drawable/bordas_produtos"
                 android:padding="10dp">
 
@@ -982,7 +997,6 @@
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:layout_marginBottom="10dp"
                 android:background="@drawable/bordas_produtos"
                 android:padding="10dp"
                 tools:layout_editor_absoluteY="178dp">
@@ -1024,7 +1038,6 @@
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:layout_marginBottom="10dp"
                 android:background="@drawable/bordas_produtos"
                 android:padding="10dp"
                 tools:layout_editor_absoluteY="178dp">
@@ -1066,7 +1079,6 @@
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:layout_marginBottom="10dp"
                 android:background="@drawable/bordas_produtos"
                 android:padding="10dp"
                 tools:layout_editor_absoluteY="178dp">

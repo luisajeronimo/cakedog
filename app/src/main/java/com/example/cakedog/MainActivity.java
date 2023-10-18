@@ -10,13 +10,13 @@ public class MainActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
+        setContentView(R.layout.activity_pagamento);
 
-        imgCarroussel = findViewById(R.id.logo);
-        imgCarroussel.setImageResource(R.drawable.logo);
+        //imgCarroussel = findViewById(R.id.logo);
+        //imgCarroussel.setImageResource(R.drawable.logo);
 
-        imgCarroussel2 = findViewById(R.id.logo2);
-        imgCarroussel2.setImageResource(R.drawable.logo2);
+        //imgCarroussel2 = findViewById(R.id.logo2);
+        //imgCarroussel2.setImageResource(R.drawable.logo2);
 
         //imgCarroussel3 = findViewById(R.id.imgCarroussel3);
         //imgCarroussel3.setImageResource(R.drawable.foto);

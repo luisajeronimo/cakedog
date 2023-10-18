@@ -10,6 +10,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Cakedog">
         <activity
+            android:name=".Pagamento"
+            android:exported="false" />
+        <activity
             android:name=".Entrega"
             android:exported="false" />
         <activity
