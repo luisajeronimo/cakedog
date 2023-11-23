@@ -338,7 +338,7 @@
             </LinearLayout>
 
             <LinearLayout
-                android:id="@+id/pgto"
+                android:id="@+id/cep1"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:background="@drawable/bordas_produtos"
